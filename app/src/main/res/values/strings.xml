@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Heartbeats</string>
+
+    <!-- Setup -->
+    <string name="setup_age_title">Your age</string>
+    <string name="setup_age_subtitle">Used to estimate your max heart rate</string>
+    <string name="setup_zone_title">Target zone</string>
+    <string name="setup_warmup_title">Warmup length</string>
+    <string name="setup_done">Done</string>
+    <string name="setup_next">Next</string>
+
+    <!-- Zones -->
+    <string name="zone_fat_burn">Fat Burn</string>
+    <string name="zone_cardio">Cardio</string>
+    <string name="zone_peak">Peak</string>
+    <string name="bpm_range">%1$d–%2$d bpm</string>
+    <string name="bpm_unit">bpm</string>
+
+    <!-- Main -->
+    <string name="main_idle_title">Heartbeats</string>
+    <string name="action_start">Start</string>
+    <string name="action_stop">Stop</string>
+    <string name="action_skip_warmup">Skip warmup</string>
+    <string name="warmup_title">Warmup</string>
+    <string name="warmup_remaining">%1$02d:%2$02d</string>
+    <string name="status_below">Below zone</string>
+    <string name="status_in_zone">In zone</string>
+    <string name="status_above">Above zone</string>
+    <string name="hr_unavailable">Check watch fit</string>
+    <string name="waiting_for_hr">Reading…</string>
+    <string name="music_paused_hint">Music paused — recover to resume</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_age">Age</string>
+    <string name="settings_zone">Zone</string>
+    <string name="settings_warmup">Warmup</string>
+    <string name="settings_haptics">Haptics</string>
+    <string name="settings_notification_access">Music access</string>
+    <string name="settings_notification_access_granted">Granted</string>
+    <string name="settings_notification_access_missing">Tap to grant</string>
+    <string name="settings_medication_note">The 220−age estimate is rough. If you take heart-rate-affecting medication (e.g. beta blockers), do not rely on it.</string>
+
+    <!-- Warmup durations -->
+    <string name="warmup_1_min">1 min</string>
+    <string name="warmup_3_min">3 min</string>
+    <string name="warmup_5_min">5 min</string>
+    <string name="warmup_10_min">10 min</string>
+
+    <!-- Haptic modes -->
+    <string name="haptics_off">Off</string>
+    <string name="haptics_below_only">Below only</string>
+    <string name="haptics_both">Both directions</string>
+
+    <!-- Foreground service notification -->
+    <string name="notif_channel_workout">Workout</string>
+    <string name="notif_workout_title">Heartbeats active</string>
+    <string name="notif_workout_text_warmup">Warming up</string>
+    <string name="notif_workout_text_active">Monitoring your zone</string>
+    <string name="notif_workout_text_paused">Music paused — below zone</string>
+</resources>

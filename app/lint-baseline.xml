@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Lint baseline. For a fresh project this should be empty (or near-empty).
+  Regenerate it on a machine with the Android SDK:
+
+      ./gradlew :app:updateLintBaseline
+
+  Build fails on NEW issues only. If this file grows large, something is
+  misconfigured — see README "Quality gates".
+-->
+<issues format="6" by="lint">
+</issues>

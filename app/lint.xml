@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <!-- Wear OS correctness — always errors -->
+    <issue id="WearStandaloneAppFlag" severity="error" />
+    <issue id="WearMaterialTheme" severity="error" />
+    <issue id="WearSplashScreen" severity="warning" />
+
+    <!-- Compose false positives on Wear — silenced -->
+    <issue id="ComposableLambdaParameterNaming" severity="ignore" />
+    <issue id="ComposableLambdaParameterPosition" severity="ignore" />
+    <issue id="IconColors" severity="ignore" />
+
+    <!-- Real Compose perf issues — keep enabled -->
+    <issue id="AutoboxingStateCreation" severity="error" />
+    <issue id="MutableCollectionMutableState" severity="error" />
+    <issue id="RememberReturnType" severity="error" />
+    <issue id="UnstableCollections" severity="warning" />
+
+    <!-- Health / permissions — must catch -->
+    <issue id="MissingPermission" severity="error" />
+    <issue id="ForegroundServiceType" severity="error" />
+
+    <!-- General quality -->
+    <issue id="NewApi" severity="error" />
+    <issue id="HardcodedText" severity="warning" />
+    <issue id="UnusedResources" severity="warning" />
+
+    <!-- Generated / known-safe paths -->
+    <issue id="all">
+        <ignore path="**/build/**" />
+        <ignore path="**/generated/**" />
+    </issue>
+</lint>

@@ -48,6 +48,11 @@
             </intent-filter>
         </activity>
 
+        <service
+            android:name=".service.WorkoutService"
+            android:exported="false"
+            android:foregroundServiceType="health" />
+
         <!-- Empty listener: granting it "Notification access" unlocks MediaSessionManager. -->
         <service
             android:name=".media.HeartbeatsNotificationListenerService"

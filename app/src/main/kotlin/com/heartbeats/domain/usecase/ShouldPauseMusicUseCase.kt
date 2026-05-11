@@ -1,7 +1,6 @@
 package com.heartbeats.domain.usecase
 
 import com.heartbeats.domain.model.ZoneStatus
-import javax.inject.Inject
 
 /** A single heart-rate observation fed to [ShouldPauseMusicUseCase]. */
 data class ZoneSample(
@@ -25,7 +24,7 @@ data class ZoneSample(
  *  - Pauses once heart rate has been BELOW the zone for [belowDebounceMs].
  *  - Resumes once heart rate has been back IN_ZONE for [resumeDebounceMs].
  */
-class ShouldPauseMusicUseCase @Inject constructor(
+class ShouldPauseMusicUseCase(
     private val belowDebounceMs: Long = DEFAULT_BELOW_DEBOUNCE_MS,
     private val resumeDebounceMs: Long = DEFAULT_RESUME_DEBOUNCE_MS,
 ) {
